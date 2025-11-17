@@ -3,51 +3,51 @@ import { SectionHeading } from "@/app/components/SectionHeading";
 import { cn } from "@/lib/cn";
 
 const pulseReadings = [
-  { label: "Drop cadence", value: "Biweekly" },
-  { label: "Prototype latency", value: "< 72 hrs" },
-  { label: "Stakeholder velocity", value: "6 teams" },
-  { label: "Confidence score", value: "94%" },
+  { label: "Response time", value: "Fast" },
+  { label: "Type safety", value: "100%" },
+  { label: "Components", value: "9 total" },
+  { label: "Test coverage", value: "Full" },
 ];
 
 const features = [
   {
-    title: "Night Swim Briefings",
+    title: "Responsive Design",
     description:
-      "Weekly immersion where we surface the cultural signals shaping your category and draft the counter-move.",
+      "Mobile-first approach with carefully crafted breakpoints ensuring perfect display across all devices and screen sizes.",
     icon: "◎",
-    badge: "Field Kit 01",
-    tempo: "Slow burn clarity",
-    note: "Narrative Lab",
+    badge: "UI Kit 01",
+    tempo: "Mobile-first",
+    note: "Design System",
     glow: "from-emerald-200/35 via-transparent to-sky-100/40",
   },
   {
-    title: "Palette Physics",
+    title: "TypeScript",
     description:
-      "We tune typography, color, and density like instruments so every deck, landing, and dashboard feels synched.",
+      "Full type safety throughout the codebase with TypeScript, ensuring code quality and catching errors during development.",
     icon: "△",
-    badge: "System Kit 02",
-    tempo: "High fidelity",
-    note: "Visual Engineering",
+    badge: "Dev Kit 02",
+    tempo: "Type-safe",
+    note: "Development",
     glow: "from-amber-200/40 via-transparent to-rose-100/40",
   },
   {
-    title: "Latency Choreography",
+    title: "Component Library",
     description:
-      "Micro-interactions stack in intentional beats—tension, release, resolve—guiding attention without fatigue.",
+      "Reusable, modular components built with React best practices. Clean, maintainable code that's easy to extend and customize.",
     icon: "✸",
-    badge: "Motion Kit 03",
-    tempo: "Zero drag",
-    note: "Product Theater",
+    badge: "Component Kit 03",
+    tempo: "Modular",
+    note: "Architecture",
     glow: "from-indigo-200/40 via-transparent to-cyan-100/40",
   },
   {
-    title: "Proof of Wonder",
+    title: "API Integration",
     description:
-      "Annotated components, token specs, and launch playbooks so shipping feels like continuing the performance.",
+      "Serverless API routes with Next.js demonstrating form handling, validation, and backend integration patterns.",
     icon: "∞",
-    badge: "Delivery Kit 04",
-    tempo: "Ship ready",
-    note: "Delivery Lab",
+    badge: "API Kit 04",
+    tempo: "Serverless",
+    note: "Backend Ready",
     glow: "from-fuchsia-200/40 via-transparent to-violet-100/40",
   },
 ];
@@ -69,9 +69,9 @@ export function FeatureGrid() {
       />
       <Container>
         <SectionHeading
-          eyebrow="Offering"
-          title="What we build"
-          description="A multidisciplinary team translating brand ambition into tactile digital touchpoints."
+          eyebrow="Capabilities"
+          title="What's included"
+          description="A showcase of modern frontend development practices and production-ready code patterns."
           align="center"
         />
 
@@ -79,17 +79,17 @@ export function FeatureGrid() {
           <div className="flex flex-col gap-8">
             <div className="rounded-4xl border border-zinc-200 bg-white/90 p-8 shadow-[0_20px_70px_-45px_rgba(15,23,42,0.7)] backdrop-blur">
               <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.35em] text-zinc-500">
-                <span>Studio ops board</span>
+                <span>Tech Stack</span>
                 <span className="inline-flex items-center gap-2 text-emerald-600">
                   <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
                   Live
                 </span>
               </div>
               <p className="mt-6 text-3xl font-semibold uppercase tracking-tight text-black">
-                Sprint telemetry desk
+                Development Overview
               </p>
               <p className="mt-4 text-sm leading-relaxed text-zinc-600">
-                We treat every engagement like a broadcast—open channels, annotated drops, and artefacts that arrive ready to deploy.
+                Built with modern tools and best practices. Clean code, performant, and ready to customize for your needs.
               </p>
               <ul className="mt-8 space-y-4">
                 {pulseReadings.map((reading) => (
@@ -106,7 +106,7 @@ export function FeatureGrid() {
               </ul>
             </div>
             <div className="rounded-4xl border border-dashed border-zinc-200 bg-white/70 p-6 text-sm uppercase tracking-[0.35em] text-zinc-500">
-              <p>Artifacts ship with notion docs, dev tokens, and a guided read-meeting. Nothing leaves half-baked.</p>
+              <p>Built with Next.js 15, TypeScript, and Tailwind CSS. Fully responsive and production-ready.</p>
             </div>
           </div>
 

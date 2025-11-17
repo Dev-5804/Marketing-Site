@@ -6,27 +6,27 @@ import { SectionHeading } from "@/app/components/SectionHeading";
 const testimonials = [
   {
     quote:
-      "Aura staged our stealth launch like an experiential exhibit—kinetic typography, hush-toned gradients, everything whispering ambition before a single word was read.",
-    name: "Maya Figueroa",
-    role: "Founder, Lumen Bio",
-    badge: "Stealth Launch",
-    result: "Waitlist filled before reveal",
+      "Clean component architecture with proper separation of concerns. The TypeScript implementation is thorough and the Tailwind styling is efficient.",
+    name: "Code Review",
+    role: "Architecture Assessment",
+    badge: "Component Design",
+    result: "Modular & maintainable",
   },
   {
     quote:
-      "We dropped a folder of half-finished thoughts and wake-up-at-3am sketches. They returned a complete language—design, motion, and tone synchronized like a launch countdown.",
-    name: "Theo Patterson",
-    role: "COO, Relay Robotics",
-    badge: "System Rebuild",
-    result: "Unified product + brand OS",
+      "Responsive design that works seamlessly across all breakpoints. Mobile navigation is smooth and the layout adapts beautifully from phone to desktop.",
+    name: "UX Analysis",
+    role: "Responsive Testing",
+    badge: "Mobile-First",
+    result: "All devices supported",
   },
   {
     quote:
-      "Investors now cite the site before the data room. It feels cinematic, serious, and somehow still sparks curiosity like a late-night lab tour.",
-    name: "Dina Solano",
-    role: "CEO, Parallel",
-    badge: "Series A Story",
-    result: "Mentioned in diligence calls",
+      "Serverless API route implementation demonstrates backend integration patterns. Form validation on both client and server side shows attention to detail.",
+    name: "Tech Review",
+    role: "API Integration",
+    badge: "Full Stack",
+    result: "Production patterns used",
   },
 ];
 
@@ -57,9 +57,9 @@ export function Testimonials() {
       />
       <Container>
         <SectionHeading
-          eyebrow="Proof"
-          title="Voices from the build"
-          description="We partner with technical founders, venture studios, and cultural operators who expect craft at every layer."
+          eyebrow="Highlights"
+          title="Project features"
+          description="A demonstration of modern web development practices and attention to detail in every aspect of the implementation."
           align="center"
         />
 

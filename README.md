@@ -1,8 +1,10 @@
-# Aura Studio - Marketing Landing Page
+# Marketing Site Template - Next.js Landing Page
 
-A modern, fully responsive marketing landing page built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. This project showcases clean component architecture, responsive design patterns, and production-ready frontend development practices.
+Portfolio project demonstrating a marketing landing page built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
-🔗 **[Live Demo](https://your-vercel-url.vercel.app)** _(Update after deployment)_
+A modern, fully responsive marketing landing page built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This project showcases clean component architecture, responsive design patterns, and production-ready frontend development practices.
+
+🔗 **[Live Demo](https://marketing-site-five-kohl.vercel.app/)**
 
 ---
 
@@ -20,7 +22,7 @@ A modern, fully responsive marketing landing page built with **Next.js 16**, **T
 
 ## 🏗️ Tech Stack
 
-- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Fonts:** Geist Sans & Geist Mono
@@ -164,6 +166,18 @@ This project is optimized for deployment on [Vercel](https://vercel.com):
 ## 📸 Screenshots
 
 _Add screenshots of your deployed site here_
+
+---
+
+## 📸 Screenshots
+
+### Desktop View
+![Hero Section](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+
+### Mobile View
+![Mobile Responsive](https://via.placeholder.com/375x667?text=Add+Mobile+Screenshot+Here)
+
+> **Note:** Replace placeholder images with actual screenshots of your deployed site.
 
 ---
 

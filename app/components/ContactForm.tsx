@@ -10,23 +10,23 @@ const emailPattern = /^[\w-.]+@([\w-]+\.)+[\w-]{2,}$/;
 type FormState = "idle" | "loading" | "success" | "error";
 
 const contactMeta = [
-  { label: "Response time", value: "Under 48 hours" },
-  { label: "Engagement range", value: "$60k–$250k" },
-  { label: "Ideal stage", value: "Seed to Series B" },
+  { label: "Form type", value: "Demo only" },
+  { label: "API route", value: "Serverless" },
+  { label: "Validation", value: "Client + Server" },
 ];
 
 const timeline = [
   {
-    title: "Fit call",
-    detail: "30 minutes to understand the product, constraints, and decision drivers.",
+    title: "Client validation",
+    detail: "Real-time field validation with email format checking and required field enforcement.",
   },
   {
-    title: "Scope sprint",
-    detail: "1 week to prototype narrative, design language, and success metrics.",
+    title: "API integration",
+    detail: "Serverless Next.js API route demonstrating backend communication patterns.",
   },
   {
-    title: "Launch build",
-    detail: "6–10 weeks with demos every Friday and async Loom recaps nightly.",
+    title: "State management",
+    detail: "Loading states, success feedback, and error handling for better user experience.",
   },
 ];
 
@@ -86,9 +86,9 @@ export function ContactForm() {
       <Container className="relative grid gap-12 lg:grid-cols-[1.05fr_0.95fr]">
         <div className="space-y-10">
           <SectionHeading
-            eyebrow="Contact"
-            title="Tell us what you are building"
-            description="Within two days you will receive a fit read, a suggested working model, and an investment window."
+            eyebrow="Demo"
+            title="Contact form demonstration"
+            description="This is a demo contact form showcasing form validation and API integration. Messages are not stored or processed."
           />
 
           <div className="grid gap-4 sm:grid-cols-3">
@@ -104,7 +104,7 @@ export function ContactForm() {
           </div>
 
           <div className="rounded-4xl border border-white/60 bg-white/80 p-8 shadow-[0_20px_60px_rgba(15,23,42,0.06)] backdrop-blur">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-zinc-500">How it unfolds</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-zinc-500">Form capabilities</p>
             <ol className="mt-6 space-y-5 text-sm text-zinc-600">
               {timeline.map((step, index) => (
                 <li key={step.title} className="flex gap-4">
@@ -173,6 +173,10 @@ export function ContactForm() {
             <Button type="submit" disabled={formState === "loading"} className="w-full">
               {formState === "loading" ? "Sending" : formState === "success" ? "Sent" : "Send message"}
             </Button>
+            
+            <p className="text-xs text-center text-zinc-500 pt-2">
+              Note: This is a portfolio demo. Messages are validated but not stored.
+            </p>
           </div>
         </form>
       </Container>

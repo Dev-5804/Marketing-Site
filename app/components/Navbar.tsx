@@ -20,7 +20,7 @@ export function Navbar() {
     <header className="sticky top-0 z-20 border-b border-zinc-200 bg-white/80 backdrop-blur">
       <Container className="flex h-20 items-center justify-between">
         <Link href="#" className="text-lg font-black uppercase tracking-[0.3em]">
-          AURA
+          Marketing Site Template
         </Link>
 
         <nav className="hidden items-center gap-10 text-sm font-semibold uppercase tracking-[0.25em] md:flex">

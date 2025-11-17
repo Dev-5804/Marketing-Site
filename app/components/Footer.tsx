@@ -32,22 +32,22 @@ export function Footer() {
       <Container className="relative flex flex-col gap-16 py-16">
         <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-lg space-y-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-zinc-400">Aura Studio</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-zinc-400">Marketing Site Template</p>
             <p className="text-3xl font-semibold leading-snug text-white">
-              Launch partners for founders who want their product story to feel inevitable.
+              A modern Next.js landing page template for developers and designers.
             </p>
             <div className="flex flex-wrap gap-3 text-xs uppercase tracking-[0.3em] text-zinc-400">
-              <span>San Francisco</span>
+              <span>Next.js 15</span>
               <span>•</span>
-              <span>Remote-first</span>
+              <span>TypeScript</span>
               <span>•</span>
-              <span>Since 2016</span>
+              <span>Tailwind CSS</span>
             </div>
             <Link
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] transition hover:border-white hover:bg-white hover:text-black"
             >
-              Book intro
+              Try Demo Form
               <ArrowUpRight className="h-4 w-4" />
             </Link>
           </div>
@@ -60,8 +60,8 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 border-t border-white/10 pt-6 text-xs uppercase tracking-[0.3em] text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Aura Studio. All rights reserved.</p>
-          <p>Inquiries → studio@auragroup.com</p>
+          <p>© {new Date().getFullYear()} Marketing Site Template. Portfolio project.</p>
+          <p>Built with Next.js · Deployed on Vercel</p>
         </div>
       </Container>
     </footer>
