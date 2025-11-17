@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aura Studio — Minimal Launch Sites",
+  title: "Aura Studio - Minimal Launch Sites",
   description:
     "Next.js marketing studio crafting black-and-white launch sites with cinematic clarity for founders and venture teams.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

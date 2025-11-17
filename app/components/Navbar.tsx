@@ -47,7 +47,7 @@ export function Navbar() {
               <span
                 key={line}
                 className={cn(
-                  "block h-[2px] w-6 bg-black transition-all",
+                  "block h-0.5 w-6 bg-black transition-all",
                   open && line === 1 ? "opacity-0" : "opacity-100",
                   open && line === 0 ? "translate-y-[5px] rotate-45" : "",
                   open && line === 2 ? "-translate-y-[5px] -rotate-45" : "",
