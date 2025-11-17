@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 type ContainerProps = {
-  as?: keyof JSX.IntrinsicElements;
+  as?: keyof React.JSX.IntrinsicElements;
   className?: string;
   children: ReactNode;
 };
