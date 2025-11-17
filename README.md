@@ -165,17 +165,11 @@ This project is optimized for deployment on [Vercel](https://vercel.com):
 
 ## 📸 Screenshots
 
-_Add screenshots of your deployed site here_
-
----
-
-## 📸 Screenshots
-
 ### Desktop View
-![Hero Section](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+![Hero Section](public/DesktopView.png)
 
 ### Mobile View
-![Mobile Responsive](https://via.placeholder.com/375x667?text=Add+Mobile+Screenshot+Here)
+![Mobile Responsive](public/Mobile.png)
 
 > **Note:** Replace placeholder images with actual screenshots of your deployed site.
 
