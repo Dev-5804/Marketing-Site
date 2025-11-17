@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aura Studio - Minimal Launch Sites",
+  title: "Marketing Site Template - Next.js Landing Page",
   description:
-    "Next.js marketing studio crafting black-and-white launch sites with cinematic clarity for founders and venture teams.",
+    "Portfolio project demonstrating a modern marketing landing page built with Next.js, TypeScript, and Tailwind CSS. Features responsive design and clean component architecture.",
   icons: {
     icon: "/logo.svg",
   },
